@@ -1,0 +1,707 @@
+<!doctype html>
+<html>
+<head>
+    <title>差价合约 - 金锐国际</title>
+    <meta name="keywords" content="金锐国际,外汇期权,mt4平台,外汇返佣,微盘交易" />
+	<meta name="description" content="金锐国际提供专业的STP直通交易模式，采用MT4微交易和浮动点差，超低交易手续费，开户即赠金，支持多级静态返佣，旨在为用户提供免费可靠的二元期权、外汇黄金白银原油股指等外汇交易服务">
+	
+<meta name="author" content="">
+<meta charset=utf-8"utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<!-- Set render engine for 360 browser -->
+<meta name="renderer" content="webkit">
+<!-- No Baidu Siteapp-->
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" id="viewport" />
+<link type="image/x-icon" rel="shortcut icon" href="/static/assets/common/img/favicon.ico.css" />
+<link type="text/css" rel="stylesheet" href="../../../../../../static/assets/css/bootstrap.css" tppabs="http://www.fxjinrui.com/static/assets/css/bootstrap.css" />
+<link type="text/css" rel="stylesheet" href="../../../../../../static/assets/css/style.css" tppabs="http://www.fxjinrui.com/static/assets/css/style.css" />
+<link type="text/css" rel="stylesheet" href="../../../../../../static/assets/css/animate.css" tppabs="http://www.fxjinrui.com/static/assets/css/animate.css" />
+<link type="text/css" rel="stylesheet" href="../../../../../../static/assets/css/index.css" tppabs="http://www.fxjinrui.com/static/assets/css/index.css" />
+<link type="text/css" rel="stylesheet" href="../../../../../../static/assets/css/iconHover/component.css" tppabs="http://www.fxjinrui.com/static/assets/css/iconHover/component.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../static/assets/css/ButtonStyles/buttons.css" tppabs="http://www.fxjinrui.com/static/assets/css/ButtonStyles/buttons.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../static/assets/css/ButtonStyles/set2.css" tppabs="http://www.fxjinrui.com/static/assets/css/ButtonStyles/set2.css" />
+<style>
+	.cutstr{
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space: nowrap; 
+	}
+</style>
+    <link rel="stylesheet" href="../../../../../../static/assets/css/inside.css" tppabs="http://www.fxjinrui.com/static/assets/css/inside.css" />
+    <link type="text/css" rel="stylesheet" href="../../../../../../static/assets/css/iconHover/component.css" tppabs="http://www.fxjinrui.com/static/assets/css/iconHover/component.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../../static/assets/css/ButtonStyles/buttons.css" tppabs="http://www.fxjinrui.com/static/assets/css/ButtonStyles/buttons.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../../static/assets/css/ButtonStyles/set2.css" tppabs="http://www.fxjinrui.com/static/assets/css/ButtonStyles/set2.css" />
+	</head>
+<body>
+	<div class="mainNav top_nav animated no_banner_bg">
+	<div class="head_warp">
+		<div class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#example-navbar-collapse">
+					<span class="sr-only">切换导航</span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="../../../../../../index.htm" tppabs="http://www.fxjinrui.com/"> <img
+					src="../../../../../../static/assets/img/assets/logo.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/logo.png" /></a>
+			</div>
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+				<ul class="nav navbar-nav" style="float: left;">
+					<li class="active" data="h"><a href="../../../../../../index.htm" tppabs="http://www.fxjinrui.com/" class="dropdown-toggle">首页</a></li>
+					<li class="dropdown " data="ys"><a href="../../about/item/ys.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/about/item/ys.html"
+						onclick="location='../../about/item/ys.html'/*tpa=http://www.fxjinrui.com/portal/page/show/name/about/item/ys.html*/" class="dropdown-toggle"
+						data-toggle="dropdown">优势</a>
+						<ul class="dropdown-menu">
+							<li><a href="../../about/item/ys.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/about/item/ys.html">关于RAY</a></li>
+							<li><a href="../../qszx/item/ys.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/qszx/item/ys.html">清算中心</a></li>
+							<li><a href="../../jgjg/item/ys.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/jgjg/item/ys.html">监管机构</a></li>
+							<li><a href="../../zjaq/item/ys.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/zjaq/item/ys.html">资金安全</a></li>
+							<li><a href="../../jdkj/item/ys.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/jdkj/item/ys.html">尖端科技</a></li>
+						</ul></li>
+					<li class="dropdown " data="cp"><a href="#" onclick="location='#'"
+						class="dropdown-toggle" data-toggle="dropdown">产品&账户</a>
+						<ul class="dropdown-menu">
+							<li><a href="../../wh/item/cp.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/wh/item/cp.html">外汇</a></li>
+							<li><a href="../../gjs/item/cp.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/gjs/item/cp.html">贵金属</a></li>
+							<li><a href="cp.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/cjhy/item/cp.html">差价合约</a></li>
+							<li><a href="../../jsjy/item/cp.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/jsjy/item/cp.html">外汇交易</a></li>
+							<li><a href="../../jyzh/item/cp.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/jyzh/item/cp.html">交易账户</a></li>
+						</ul></li>
+					<li class="dropdown " data="jypt"><a href="#" onclick="location='#'"
+						class="dropdown-toggle" data-toggle="dropdown">交易平台</a>
+						<ul class="dropdown-menu">
+							<li><a href="../../wpjypt/item/jypt.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/wpjypt/item/jypt.html">外汇交易平台</a></li>
+							<li><a href="../../mt4jypt/item/jypt.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/mt4jypt/item/jypt.html">MT4交易平台</a></li>
+						</ul></li>
+					<li class="dropdown " data="hqzx"><a href="../../ssbj/item/hqzx.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/ssbj/item/hqzx.html"
+						onclick="location='../../ssbj/item/hqzx.html'/*tpa=http://www.fxjinrui.com/portal/page/show/name/ssbj/item/hqzx.html*/" class="dropdown-toggle"
+						data-toggle="dropdown">行情资讯</a>
+						<ul class="dropdown-menu">
+							<li><a href="../../ssbj/item/hqzx.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/ssbj/item/hqzx.html">实时报价</a></li>
+														<li><a href="../../../../../list/index/id/1/item/hqzx.html" tppabs="http://www.fxjinrui.com/portal/list/index/id/1/item/hqzx.html" target="_self">市场新闻</a></li>
+														<li><a href="../../../../../list/index/id/2/item/hqzx.html" tppabs="http://www.fxjinrui.com/portal/list/index/id/2/item/hqzx.html" target="_self">最新通知</a></li>
+													</ul></li>
+				</ul>
+			</div>
+			<div class="tel" />
+			<div class="dropdown fl">
+				<a class="btn btn-reg dropdown-toggle" data-toggle="dropdown">开户</a>
+				<ul class="dropdown-menu icon_ul">
+					<li class="icon_css"
+						onclick="javascript:window.location.href='http://office.fxjinrui.com/'"
+						style="cursor: pointer;">开立真实账户</li>
+					<a class="icon_css"
+						href="javascript:if(confirm('http://office.fxjinrui.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://office.fxjinrui.com/'" tppabs="http://office.fxjinrui.com/">开立模拟账户</a>
+				</ul>
+			</div>
+
+				        <a href="javascript:if(confirm('http://office.fxjinrui.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://office.fxjinrui.com/'" tppabs="http://office.fxjinrui.com/" class="btn btn-log">登录</a>
+						
+			<div class="dropdown country">
+				<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+										<img src="../../../../../../static/assets/img/assets/ct/cn.jpg" tppabs="http://www.fxjinrui.com/static/assets/img/assets/ct/cn.jpg" />
+										<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu pull-right" role="menu"
+					aria-labelledby="dropdownMenu1">
+					<li role="presentation">
+												<a role="menuitem lang_change" data="en" tabindex="-1" href="" class="lang_change">
+							<img src="../../../../../../static/assets/img/assets/ct/en.jpg" tppabs="http://www.fxjinrui.com/static/assets/img/assets/ct/en.jpg" />
+							English
+						</a>
+											</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!--[if lte IE 8]>
+    <style>
+        .top_nav { display: none; }
+
+        .header { background: #3a9984; padding: 0; }
+
+        .logo { float: left; padding: 10px 0; }
+
+        .navigation { float: left; margin-left: 20px; }
+
+        .navig { padding: 0; }
+
+        .navig li { float: left; padding: 0; margin: 0; cursor: pointer; }
+
+        .navig li .scroll { font-size: 16px; text-decoration: none; height: 60px; line-height: 60px; *height: 26px; padding: 0 30px; text-align: center; display: block; }
+
+        .navig li a { color: #fff; }
+
+        .navig li:hover { color: #fe4728; background: #298671; }
+
+        .dropdown .on { color: #ffb800; background-color: #298671; }
+
+        .dropdown ul { display: none }
+
+        .dropdown:hover ul { position: absolute; display: block; top: 76px; left: 0; z-index: 99999 }
+
+        .dropdown .subnav { width: 460px; }
+
+        .dropdown .nav_mt4 { width: 420px; }
+
+        .dropdown .nav_option { width: 380px; }
+
+        .dropdown .nav_cuohe { width: 380px; margin-left: -244px; }
+
+        .dropdown .subnav a { padding: 10px 20px; display: block; overflow: hidden; white-space: nowrap; color: #333; float: left; }
+
+        .dropdown .subnav a:hover { color: #fff; }
+
+        .dropdown .subnav { background-color: #fff; border: 1px solid #57779c; padding: 8px }
+
+        .banner_xs { display: none; }
+    </style>
+    <div class="header" id="home">
+        <div class="head_warp">
+            <div class="logo">
+                <a href="../../../../../../index.htm" tppabs="http://www.fxjinrui.com/" alt=""/></a>
+            </div>
+            <div class="navigation">
+                <ul class="navig">
+                    <li class="dropdown"><a href="../../../../../../index.htm" tppabs="http://www.fxjinrui.com/" class="scroll on"><p>首页</p>
+                        <div class="clears"></div>
+                    </a></li>
+                    <li class="dropdown"><a href="../../about/item/ys.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/about/item/ys.html" class="scroll"><p>优势</p>
+                        <div class="clears"></div>
+                    </a>
+                        <ul class="subnav nav_aboutus">
+                            <li><a href="../../jdkj/item/ys.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/jdkj/item/ys.html">尖端科技</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="scroll"><p>产品&账户</p>
+                        <div class="clears"></div>
+                    </a>
+                        <ul class="subnav nav_aboutus">
+                            <li><a href="../../wh/item/cp.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/wh/item/cp.html">交易账户</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="scroll"><p>交易平台</p>
+                        <div class="clears"></div>
+                    </a>
+                        <ul class="subnav nav_aboutus">
+                            <li><a href="../../wpjypt/item/jypt.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/wpjypt/item/jypt.html">MT4交易平台</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="../../ssbj/item/hqzx.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/ssbj/item/hqzx.html" class="scroll"><p>行情资讯</p>
+                        <div class="clears"></div>
+                    </a>
+                        <ul class="subnav nav_aboutus">
+                            <li><a href="../../ssbj/item/hqzx.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/ssbj/item/hqzx.html">实时报价</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <![endif]-->
+
+
+<!-- inside banner -->
+    <!--<div class="inside-banner about_banner"></div>-->
+    <div class="inside-banner about_banner">
+        <div class="svg_img hidden-xs hidden-sm">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="500px" height="400px" viewbox="0 0 500 400">
+                <g>
+                    <rect x="66.877" y="30.615" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="320.094" height="199.342"></rect>
+                    <path fill="none" stroke="#F2F2F2" stroke-miterlimit="10" d="M394.746,219.314c0,15.219,1.189,19.238-19.034,19.238H79.158
+		c-20.224,0-20.263-6.275-20.263-21.496V42.69c0-15.221-1.599-23.904,18.623-23.904h294.109c20.224,0,23.118,4.795,23.118,20.016
+		V219.314z">
+                    </path>
+                    <line fill="none" stroke="#F2F2F2" stroke-miterlimit="10" x1="91.231" y1="238.553" x2="91.231" y2="245"></line>
+                    <line fill="none" stroke="#F2F2F2" stroke-miterlimit="10" x1="360.467" y1="238.553" x2="360.467" y2="245"></line>
+                    <circle fill="none" stroke="#F2F2F2" stroke-width="0.5" stroke-miterlimit="10" cx="226.563" cy="24.833" r="2.198"></circle>
+                    <path fill="none" stroke="#F2F2F2" stroke-miterlimit="10" d="M196.531,245c0,0,1.536,5.524,5.219,5.524h50.654
+		c0,0,1.227-0.613,3.684-5.524">
+                    </path>
+                    <rect x="158.157" y="255.586" fill="none" stroke="#F2F2F2" stroke-miterlimit="10" width="4.299" height="0"></rect>
+                    <rect x="289.55" y="255.586" fill="none" stroke="#F2F2F2" stroke-miterlimit="10" width="4.298" height="0"></rect>
+                    <g>
+                        <path fill="none" stroke="#F2F2F2" stroke-miterlimit="10" d="M400.073,245c0.02-1.957-0.005-4.144-0.005-6.599V37.39
+			c0-16.949-2.975-22.288-23.738-22.288H74.335c-20.766,0-19.122,9.67-19.122,26.618v194.167c0,3.442,0.005,6.467,0.182,9.113
+			H15.711v7.98h421.698V245H400.073z">
+                        </path>
+                        <path fill="none" stroke="#F2F2F2" stroke-miterlimit="10" d="M17.245,252.98c0,0,5.219,5.207,13.201,5.207h391.726
+			c0,0,7.981-0.908,13.508-5.207">
+                        </path>
+                        <line fill="none" stroke="#F2F2F2" stroke-miterlimit="10" x1="55.395" y1="245" x2="400.073" y2="245"></line>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+    <div class="CFDs-warp">
+        <div class="CFDs_in container">
+            <div class="about_title">
+                <img src="../../../../../../static/assets/img/assets/CDFs/CDFs_title.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/CDFs/CDFs_title.png" />
+                <h2>差价合约
+                </h2>
+                <span></span>
+            </div>
+            <div class="CFDs_intro">
+                <h5>差价合约（CFD）是目前非常流行的杠杆金融工具，类似于外汇，CFD交易在初始交易时只需存入少量本金即可进行更大的潜在资本投资。
+                </h5>
+                <h5>您可以在RAY平台交易货币对，黄金、白银等贵金属以及包括道琼斯指数、纳斯达克指数、DX美元指数在内的十几种指数产品。
+                </h5>
+                <h4>CFD交易的特点：
+                </h4>
+                <div class="CFDs_intro_tk">
+                    <i></i>
+                    <p>
+                        多种盈利可能性
+                    </p>
+                    <span>－CFD可以交易上涨或下跌市场，您只需要判断市场走向便有机会盈利</span>
+                </div>
+                <div class="CFDs_intro_tk">
+                    <i></i>
+                    <p>
+                        交易产品多样性
+                    </p>
+                    <span>－CFD可以交易包括指数、商品、货币在内的多种产品</span>
+                </div>
+                <div class="CFDs_intro_tk">
+                    <i></i>
+                    <p>
+                        高效本金利用率
+                    </p>
+                    <span>－CFD是一种保证金交易，这意味着您交易只需要投入少量保证金而无需投入全部交易额</span>
+                </div>
+                <div class="CFDs_intro_tk">
+                    <i></i>
+                    <p>
+                        提供对冲可能性
+                    </p>
+                    <span>－如果您持有的交易产品在短期内有亏损的可能，您可以利用CFD交易进行对冲以弥补交易损失</span>
+                </div>
+            </div>
+            <ul class="CFDs_adv">
+                <li>
+                    <img src="../../../../../../static/assets/img/assets/CDFs/icon1.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/CDFs/icon1.png" />
+                    <p>
+                        可交易货币、贵金属、指数、能源、商品等
+                    </p>
+                </li>
+                <li>
+                    <img src="../../../../../../static/assets/img/assets/CDFs/icon2.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/CDFs/icon2.png" />
+                    <p>
+                        同时持有长仓和短仓能力
+                    </p>
+                </li>
+                <li>
+                    <img src="../../../../../../static/assets/img/assets/CDFs/icon3.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/CDFs/icon3.png" />
+                    <p>
+                        高于传统贸易的杠杆率
+                    </p>
+                </li>
+                <li>
+                    <img src="../../../../../../static/assets/img/assets/CDFs/icon4.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/CDFs/icon4.png" />
+                    <p>
+                        可直接进入不同产品市场
+                    </p>
+                </li>
+                <li>
+                    <img src="../../../../../../static/assets/img/assets/CDFs/icon5.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/CDFs/icon5.png" />
+                    <p>
+                        可同时做多或做空，都有盈利可能
+                    </p>
+                </li>
+                <li>
+                    <img src="../../../../../../static/assets/img/assets/CDFs/icon6.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/CDFs/icon6.png" />
+                    <p>
+                        与真实交易市场时间同步进行
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="CFDs_contract">
+            <div class="container">
+                <div class="about_title">
+                    <img src="../../../../../../static/assets/img/assets/CDFs/CDFs_con.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/CDFs/CDFs_con.png" />
+                    <h2>合约细则
+                    </h2>
+                    <span></span>
+                </div>
+                <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
+                    <ul id="myTabs" class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active mr_45">
+                            <a href="#home6" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="false">点差</a>
+                        </li>
+                        <!--
+					<li role="presentation" class="">
+						<a href="#profile6" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">交易明细</a> 
+					</li>
+-->
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade active in" id="home6" aria-labelledby="home-tab">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>商品
+                                        </th>
+                                        <th>最小持仓量
+                                        </th>
+                                        <th>保证金比列
+                                        </th>
+                                        <th>最低点差
+                                        </th>
+                                        <th>每手合约
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-e0">
+                                        <td>UK100　　
+                                        </td>
+                                        <td>0.1　　　
+                                        </td>
+                                        <td>100:1
+                                        </td>
+                                        <td>2　
+                                        </td>
+                                        <td>20　
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>GER30
+                                        </td>
+                                        <td>0.1
+                                        </td>
+                                        <td>100:1
+                                        </td>
+                                        <td>3
+                                        </td>
+                                        <td>10
+                                        </td>
+                                    </tr>
+                                    <tr class="bg-e0">
+                                        <td>US30
+                                        </td>
+                                        <td>0.1
+                                        </td>
+                                        <td>100:1
+                                        </td>
+                                        <td>3
+                                        </td>
+                                        <td>10
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>NAS100
+                                        </td>
+                                        <td>0.1
+                                        </td>
+                                        <td>100:1
+                                        </td>
+                                        <td>2
+                                        </td>
+                                        <td>30
+                                        </td>
+                                    </tr>
+                                    <tr class="bg-e0">
+                                        <td>SPX500
+                                        </td>
+                                        <td>0.1
+                                        </td>
+                                        <td>100:1
+                                        </td>
+                                        <td>2.3
+                                        </td>
+                                        <td>50
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>FRA40
+                                        </td>
+                                        <td>0.1
+                                        </td>
+                                        <td>100:1
+                                        </td>
+                                        <td>3
+                                        </td>
+                                        <td>30
+                                        </td>
+                                    </tr>
+                                    <tr class="bg-e0">
+                                        <td>EUSTX50
+                                        </td>
+                                        <td>0.1
+                                        </td>
+                                        <td>100:1
+                                        </td>
+                                        <td>2
+                                        </td>
+                                        <td>50
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>JPN225
+                                        </td>
+                                        <td>0.1
+                                        </td>
+                                        <td>100:1
+                                        </td>
+                                        <td>10
+                                        </td>
+                                        <td>10
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="profile6" aria-labelledby="profile-tab">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- problem -->
+    <div class="problem-warp container">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <!--1-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="" id="change-p1">什么是差价合约？<i class="fr"></i> </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true">
+                    <div class="panel-body">
+                        差价合约（CFD）是买方和卖方之间订立的一种合约，同外汇交易一样，差价合约交易是一种保证金交易，在CFD的交易中既可以做多也可以做空投资者可以以一定价格购买合约。
+                    </div>
+                </div>
+            </div>
+            <!--2-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="change-p2">为什么选择交易差价合约？<i class="fr"></i> </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+                    <div class="panel-body">
+                        由于差价合约交易也是杠杆交易并且可以同时连接多个交易市场，因此，差价合约交易可以让您在短时间内以较低的保证金进行多种资产的交易，您可以根据经验及偏好自由选择进行长线或者短线交易，以及您想交易的产品。<br />
+                        <br />
+                        <span style="color: #0a9a91;">风险提示</span>：差价合约是杠杆交易，您选择的杠杆越高，意味着您的利益和风险可能越大。
+                    </div>
+                </div>
+            </div>
+            <!--3-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="change-p3">差价合约的可交易产品有哪些？<i class="fr"></i> </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 0px;">
+                    <div class="panel-body">
+                        您可以交易多种指数、贵金属及原油差价产品，包括日经255指数(JPN225)、法兰克福DAX指数(GER30)、英国100指数期货(UK100)、法国40指数(FRA40)、EUSTX50、道琼斯工业平均指数指数(US30)、纳斯达克指数(NAS100)、美国标准普尔500指数(SPX500)、黄金(XAU)、白银(XAG)、原油(OIL)等
+                    </div>
+                </div>
+            </div>
+            <!--4-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="change-p4">差价合约的交易时间？<i class="fr"></i> </a>
+                    </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false" style="height: 0px;">
+                    <div class="panel-body">
+                        差价合约的交易时间根据不同投资产品的市场交易时间变动，具体交易时间请<a href="#" style="color: #de1d22;">点击详情查看。</a>
+                    </div>
+                </div>
+            </div>
+            <!--5-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" id="A1">如何进行差价合约交易？<i class="fr"></i> </a>
+                    </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" aria-expanded="false" style="height: 0px;">
+                    <div class="panel-body">
+                        您可以根据市场的判断，买入或卖出合约资产，无论市场处于上行还是下行，您都有盈利机会。比如，您认为某项资产在未来将出现上涨走势，您可以进行“买入”（俗称“做多”）操作，若市场进一步上升，您就可以获得利益，若市场转而下行，您就要承担相应损失，市场上升越多，您的获利空间越大，反之则损失越多。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+	<!-- footer -->
+<div class="footer-top">
+    <div class="container clearfix foot-top-in">
+        <div class="w_26 fl">
+            <div class="">
+                <img src="../../../../../../static/assets/img/assets/footer-logo.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/footer-logo.png" ></div>
+            <div class="foot-t-tel">
+                <span class="fl">
+                    <img src="../../../../../../static/assets/img/assets/footer_top_ardre.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/footer_top_ardre.png" ></span>
+                <p class="fl">香港湾仔骆克道166-188金威商业大厦1</p>
+                <div class="clearfix"></div>
+            </div>
+            <div class="foot-t-address">
+                <span class="fl">
+                    <img src="../../../../../../static/assets/img/assets/footer_top_tel.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/footer_top_tel.png" ></span>
+                <p class="fl">
+                    FSP 486166</p>
+                <div class="clearfix"></div>
+            </div>
+            <div class="foot-t-email">
+                <span class="fl">
+                    <img src="../../../../../../static/assets/img/assets/footer_top_eamil.png" tppabs="http://www.fxjinrui.com/static/assets/img/assets/footer_top_eamil.png" ></span>
+                <p class="fl">info@fxjinray.com</p>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="w_74 phone_none fr">
+            <div class="foot-land">
+                <ul>
+                    <li>
+                        <a class="but_title" href="#">交易产品</a>
+                        <a class="but_box" href="../../wh/item/cp.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/wh/item/cp.html" >外汇</a>
+                        <a class="but_box" href="../../gjs/item/cp.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/gjs/item/cp.html" >贵金属/能源</a>
+                        <a class="but_box" href="cp.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/cjhy/item/cp.html" >差价合约</a>
+                        <a class="but_box" href="../../jsjy/item/cp.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/jsjy/item/cp.html" >金锐期权</a>
+                    </li>
+                    <li>
+                        <a class="but_title" href="#">下载平台</a>
+                        <a class="but_box" href="../../mt4jypt/item/jypt.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/mt4jypt/item/jypt.html" >PC端MT4</a>
+                        <a class="but_box" href="../../mt4jypt/item/jypt.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/mt4jypt/item/jypt.html" >手机版MT4</a>
+                        <a class="but_box" href="../../wpjypt/item/jypt.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/wpjypt/item/jypt.html" >外汇交易</a>
+                    </li>
+                    <li>
+                        <a class="but_title" href="javascript:if(confirm('http://office.fxjinrui.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://office.fxjinrui.com/'" tppabs="http://office.fxjinrui.com/" >开立账户</a>
+                        <a class="but_box" href="javascript:if(confirm('http://office.fxjinrui.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://office.fxjinrui.com/'" tppabs="http://office.fxjinrui.com/" >开立模拟账户</a>
+                        <a class="but_box" href="javascript:if(confirm('http://office.fxjinrui.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://office.fxjinrui.com/'" tppabs="http://office.fxjinrui.com/" >开立真实账户</a>
+
+                    </li>
+                    <li class="last_li">
+                        <a class="but_title" href="../../about/item/ys.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/about/item/ys.html" >关于我们</a>
+                        <a class="but_box" href="../../about/item/ys.html" tppabs="http://www.fxjinrui.com/portal/page/show/name/about/item/ys.html" >公司介绍</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row clearfix">
+                <ul>
+                    <li class="li-one"></li>
+                    <li class="li-two"></li>
+                    <li class="li-three"></li>
+                    <li class="li-four"></li>
+                    <li class="li-five"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="prompt-warp">
+    <div class="container">
+        <p>风险提示：</p>
+        <p>保证金交易涉及重大风险，包括完全损失资金。交易并不适合所有的投资者和交易商，通过提高杠杆将增加风险。RAY的模拟帐户让您可以在零风险的环境下进行测试任何贸易策略。鉴于市场行情可能影响报价和交易价，请勿将其视为任何真实的盈利、损失或者真实的贸易环境。RAY 建议您在做出决定之前请确保您明确所涉及的风险。如有必要，请征询独立意见。</p>
+    </div>
+</div>
+
+<div class="copyright">
+    <div class="container copyright-in">
+        <div class="cp">COPYRIGHT © 2009-2017 金锐国际.  All Rights Reserved </div>
+        <br />
+    </div>
+</div>
+
+	<script type="text/javascript">
+	//全局变量
+	var GV = {
+		ROOT : "/",
+		WEB_ROOT : "/",
+		JS_ROOT : "static/js/"
+	};
+</script>
+<!--[if lt IE 9]>
+<script src="../../../../../../static/assets/js/html5shiv/3.7.2/html5shiv.min.js" tppabs="http://www.fxjinrui.com/static/assets/js/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="../../../../../../static/assets/js/respond.js/1.4.2/respond.min.js" tppabs="http://www.fxjinrui.com/static/assets/js/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="../../../../../../static/assets/js/jquery-1.11.0.min.js" tppabs="http://www.fxjinrui.com/static/assets/js/jquery-1.11.0.min.js" ></script>
+<script src="../../../../../../static/assets/js/canvas/FSS.js" tppabs="http://www.fxjinrui.com/static/assets/js/canvas/FSS.js" ></script>
+<script type="text/javascript" src="../../../../../../static/assets/js/jquery.drawsvg.min.js" tppabs="http://www.fxjinrui.com/static/assets/js/jquery.drawsvg.min.js" ></script>
+<script>
+    var $svg = $('svg').drawsvg();
+    $svg.drawsvg('animate');
+</script>
+<script src="../../../../../../static/assets/js/bootstrap.js" tppabs="http://www.fxjinrui.com/static/assets/js/bootstrap.js" ></script>
+<script src="../../../../../../static/assets/js/main.js" tppabs="http://www.fxjinrui.com/static/assets/js/main.js" ></script>
+<script src="../../../../../../static/assets/js/iconHover/modernizr.custom.js" tppabs="http://www.fxjinrui.com/static/assets/js/iconHover/modernizr.custom.js" ></script>
+<!--<script src="/static/assets/common/js/canvas/FSS.js"></script>-->
+<script type="text/javascript" src="../../../../../../static/assets/js/hover-dropdown.js" tppabs="http://www.fxjinrui.com/static/assets/js/hover-dropdown.js" ></script>
+<script type="text/javascript" src="../../../../../../static/assets/js/wow.js" tppabs="http://www.fxjinrui.com/static/assets/js/wow.js" ></script>
+<script type="text/javascript" src="../../../../../../static/js/cookie.js" tppabs="http://www.fxjinrui.com/static/js/cookie.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.lang_change').on('click',function(e){
+		e.preventDefault();
+		$.cookie('lang' , $(this).attr('data') , {path : '/' , expires :15});
+		//location.reload();
+		location.href = "../../../../../../index.htm"/*tpa=http://www.fxjinrui.com/*/;
+	});
+	$('.navbar-nav > li').removeClass('active');
+	$('.navbar-nav > li').each(function(){
+		if($(this).attr('data') == 'cp'){
+			$(this).addClass('active');
+		}
+	});
+    $('.frame-head a').click(function () {
+        $(this).siblings().removeClass('active');
+        $('.frame-body').hide().eq($(this).addClass('active').index()).show();
+    });
+    jQuery(window).scroll(function () {
+        height = jQuery(window).scrollTop();
+        if (height > 200) {
+            jQuery('.mainNav').addClass("mainNavFix fadeInUp");
+        } else {
+            jQuery('.mainNav').removeClass("mainNavFix fadeInUp");
+        }
+        ;
+    });
+});
+if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+    new WOW().init();
+};
+$('.dropdown-toggle').dropdownHover(options);
+var options = {
+    useEasing: true,
+    useGrouping: true,
+    separator: ',',
+    decimal: '.',
+    prefix: '',
+    suffix: ''
+};
+$(function () {
+    FSS("canvas-warp", "output");
+    $(".color li").mouseover(function (event) {
+        $(".can-ss").css("background-color", $(this).css("background-color"));
+    });
+});
+</script>
+<script src="../../../../../../static/assets/js/SeamlessContinuousRolling.js" tppabs="http://www.fxjinrui.com/static/assets/js/SeamlessContinuousRolling.js" ></script>
+<script>
+    $(function () {
+        $('.frame').Continuous('left', 20);
+    });
+</script>
+	<script type="text/javascript">
+	
+	</script>
+	</body>
+</html>
